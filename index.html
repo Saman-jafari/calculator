@@ -10,42 +10,47 @@
     <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 <div class="container">
-    <div class="main">
-        <div class="col-6 m-auto">
-            <input class="input-group form-check-input form-check form-control my-4" type="text" title="calculator input" placeholder="start typing number">
-            <div class="">
-                <button class="btn btn-lg btn-dark text-white">CE</button>
-                <button class="btn btn-lg btn-dark text-white">C</button>
-                <button class="btn btn-lg btn-dark text-white"><i class="fa fa-backspace text-white"></i></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-            </div>
-            <div class="">
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-            </div>
-            <div class="">
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-            </div>
-            <div class="">
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-            </div>
-            <div class="">
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-                <button class="btn btn-lg btn-dark text-white"></button>
-            </div>
+    <div class="col-4 m-auto text-center">
+        <input id="output" class="form-control my-4 py-4 text-right" type="text" title="entry" placeholder="0">
+        <div>
+            <button id="CE" class="btn btn-lg btn-dark text-white cal_btn">CE</button>
+            <button id="C" class="btn btn-lg btn-dark text-white cal_btn">C</button>
+            <button id="backspace" class="btn btn-lg btn-dark text-white cal_btn"><i
+                    class="fa fa-backspace text-white"></i></button>
+            <button id="divide" class="btn btn-lg btn-dark text-white cal_btn"><i class="fa fa-divide text-white"></i>
+            </button>
+        </div>
+        <div>
+            <button id="n7" class="btn btn-lg btn-dark text-white cal_btn">7</button>
+            <button id="n8" class="btn btn-lg btn-dark text-white cal_btn">8</button>
+            <button id="n9" class="btn btn-lg btn-dark text-white cal_btn">9</button>
+            <button id="times" class="btn btn-lg btn-dark text-white cal_btn"><i class="fa fa-times text-white"></i>
+            </button>
+        </div>
+        <div>
+            <button id="n4" class="btn btn-lg btn-dark text-white cal_btn">4</button>
+            <button id="n5" class="btn btn-lg btn-dark text-white cal_btn">5</button>
+            <button id="n6" class="btn btn-lg btn-dark text-white cal_btn">6</button>
+            <button id="minus" class="btn btn-lg btn-dark text-white cal_btn"><i class="fa fa-minus text-white"></i>
+            </button>
+        </div>
+        <div>
+            <button id="n1" class="btn btn-lg btn-dark text-white cal_btn">1</button>
+            <button id="n2" class="btn btn-lg btn-dark text-white cal_btn">2</button>
+            <button id="n3" class="btn btn-lg btn-dark text-white cal_btn">3</button>
+            <button id="plus" class="btn btn-lg btn-dark text-white cal_btn"><i class="fa fa-plus text-white"></i>
+            </button>
+        </div>
+        <div>
+            <button id="pm" class="btn btn-lg btn-dark text-white cal_btn">&#177;</button>
+            <button id="n0" class="btn btn-lg btn-dark text-white cal_btn">0</button>
+            <button id="dot" class="btn btn-lg btn-dark text-white cal_btn">.</button>
+            <button id="eq" class="btn btn-lg btn-dark text-white cal_btn"><i class="fa fa-equals text-white"></i>
+            </button>
         </div>
     </div>
 </div>
