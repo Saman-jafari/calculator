@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "it is a calculator",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saman-jafari/calculator.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Saman jafari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saman-jafari/calculator/issues"
+  },
+  "homepage": "https://github.com/Saman-jafari/calculator#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.2.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}
