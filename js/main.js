@@ -14,7 +14,7 @@ window.addEventListener('load', function () {
     let action;
     let actionEq;
     let val = null;
-    let def = 0;
+    let defaultValue = 0;
     output.addEventListener('', function () {
 
     });
@@ -26,8 +26,8 @@ window.addEventListener('load', function () {
 
         num[i].addEventListener('click', function (e) {
             if (action !== 'ADD' && action !== 'SUB' && action !== 'DIVIDE' && action !== 'TIMES' && action !== "EQ") {
-                def = e.target.value;
-                output.value += def;
+                defaultValue = e.target.value;
+                output.value += defaultValue;
             } else {
                 output.value = e.target.value;
                 action = null;
@@ -51,6 +51,9 @@ window.addEventListener('load', function () {
         val = null;
         actionEq = null;
     });
+    /**
+     * Just delete recent typed number
+     */
     ce.addEventListener('click', function () {
         output.value = null;
     });
@@ -68,7 +71,9 @@ window.addEventListener('load', function () {
         }
     });
 
-
+    /**
+     * add
+     */
     add.addEventListener('click', function () {
         action = 'ADD';
         actionEq = 'ADD';
@@ -80,6 +85,9 @@ window.addEventListener('load', function () {
             output.value = val
         }
     });
+    /**
+     * subtract
+     */
     sub.addEventListener('click', function () {
         action = 'SUB';
         actionEq = 'SUB';
@@ -91,6 +99,9 @@ window.addEventListener('load', function () {
             output.value = val
         }
     });
+    /**
+     * DIVIDE
+     */
     divide.addEventListener('click', function () {
         action = 'DIVIDE';
         actionEq = 'DIVIDE';
@@ -102,6 +113,9 @@ window.addEventListener('load', function () {
             output.value = val
         }
     });
+    /**
+     * TIMES
+     */
     times.addEventListener('click', function () {
         action = 'TIMES';
         actionEq = 'TIMES';
