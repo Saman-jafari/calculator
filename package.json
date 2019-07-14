@@ -21,6 +21,6 @@
   "homepage": "https://github.com/Saman-jafari/calculator#readme",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   }
 }
